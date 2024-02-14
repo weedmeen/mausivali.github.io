@@ -1,0 +1,62 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    padding: 20px; /* Added padding for overall container */
+    max-width: 960px; /* Limit container width for better layout control */
+    background-color: #fff; /* Optional: Adds background to make content pop */
+    border-radius: 8px; /* Optional: Softens the container edges */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: Adds subtle shadow for depth */
+}
+
+h1 {
+    color: red;
+    font-size: 2em;
+}
+
+.flowers {
+    background-color: white; /* Ensures background contrast */
+    padding: 10px; /* Pads the ASCII art for better spacing */
+    text-align: left; /* Aligns ASCII art to the left */
+}
+
+.flowers pre {
+    font-family: 'Courier New', monospace;
+    white-space: pre-wrap; /* Allows the ASCII to wrap and maintain structure */
+    font-size: 10px; /* Adjusted for better fit and readability */
+    color: black; /* Color adjusted for contrast */
+    margin: 0 auto; /* Centers the ASCII content */
+    max-width: 800px; /* Adjust as necessary to fit the ASCII art */
+}
+
+.cats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the cat images */
+    gap: 10px; /* Space between images */
+    margin-top: 20px; /* Space between ASCII art and cat images */
+}
+
+.cat {
+    width: 100px; /* Size adjusted as needed */
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cat1 { background-image: url('cat1.jpg'); }
+.cat2 { background-image: url('cat2.jpg'); }
+.cat3 { background-image: url('cat3.jpg'); }
+.cat4 { background-image: url('cat4.jpg'); }
+.cat5 { background-image: url('cat5.jpg'); }
+.cat6 { background-image: url('cat6.jpg'); }
